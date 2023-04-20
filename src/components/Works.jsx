@@ -34,7 +34,7 @@ const Works = () => {
                 <div className="absolute hidden opacity-0 gap-x-3 transition-all group-hover:opacity-100 h-full w-full bg-gray-800/60 z-20 top-0 left-0 md:flex justify-center items-center flex-row">
                   <a
                     target="_black"
-                    href="https://github.com/erfunit/grow-with-data"
+                    href={project.githubLink}
                     className="p-4  rounded bg-white/40 text-white transition-all hover:bg-white/60 active:scale-95"
                   >
                     <FaGithub
