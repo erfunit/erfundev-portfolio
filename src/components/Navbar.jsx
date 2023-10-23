@@ -46,7 +46,7 @@ const Navbar = () => {
           />
         </div>
         <h1 className="text-[#FFB800] text-2xl font-nunito font-light">
-          ErfunDev
+          Erfungraph
         </h1>
         <nav className="text-white/70 hidden md:block text-lg font-light font-nunito">
           <ul className="flex flex-row gap-8">
@@ -137,7 +137,11 @@ const Navbar = () => {
           >
             Contact
           </a>
-          <a href="#works" className="">
+          <a
+            onClick={() => setNavOpened((pre) => !pre)}
+            href="#works"
+            className=""
+          >
             Works
           </a>
         </nav>

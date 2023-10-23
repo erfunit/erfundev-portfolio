@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from "react";
+import { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
 import loadingImage from "../assets/icons/loading.svg";
 import { motion } from "framer-motion";
@@ -11,6 +11,10 @@ const ContactMe = () => {
   const [loading, setLoaing] = useState(false);
 
   const formSubmit = (e) => {
+    if (email === "" || subjecet === "" || content === "") {
+      alert("you have to fill in all the fields!");
+      return;
+    }
     e.preventDefault();
     setLoaing(() => true);
     emailjs
@@ -44,7 +48,7 @@ const ContactMe = () => {
         </div>
         <form
           ref={form}
-          method="post"
+          method="get"
           onSubmit={(e) => formSubmit(e)}
           className="flex items-start w-full md:w-8/12 max-w-lg flex-col gap-3"
         >

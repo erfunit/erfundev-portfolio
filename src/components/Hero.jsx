@@ -12,9 +12,14 @@ import dots from "../assets/icons/dots2.svg";
 import myImage from "../assets/myImage.jpg";
 import down from "../assets/icons/down.svg";
 
+import {
+  MouseParallaxChild,
+  MouseParallaxContainer,
+} from "react-parallax-mouse";
+
 const Hero = () => {
   return (
-    <div className="h-screen" id="home">
+    <MouseParallaxContainer className="h-screen" id="home">
       <div className="container flex-col mx-auto gap-5 sm:gap-8 md:gap-16 md:flex-row h-full flex justify-center items-center">
         <div
           style={{ paddingTop: "40%" }}
@@ -105,18 +110,21 @@ const Hero = () => {
             </span>
           </div>
         </div>
+
         <motion.div className="w-1/4 aspect-ratio h-0 pt-[40%] sm:w-2/5 lg:w-1/5 lg:pt-[20%] relative border hidden md:block rounded-full border-[#FFB800]">
-          <motion.img
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.3, delay: 0.3 }}
-            src={myImage}
-            className="absolute rounded-full bottom-2 right-2"
-            alt="Erfun Ghodoosi"
-          />
+          <MouseParallaxChild factorX={0.02} factorY={0.04}>
+            <motion.img
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.3, delay: 0.3 }}
+              src={myImage}
+              className="absolute rounded-full bottom-0 right-0"
+              alt="Erfun Ghodoosi"
+            />
+          </MouseParallaxChild>
         </motion.div>
       </div>
-    </div>
+    </MouseParallaxContainer>
   );
 };
 

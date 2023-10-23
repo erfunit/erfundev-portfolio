@@ -8,17 +8,20 @@ export const projects = [
     title: "todo application",
     techs: "React / Tailwindcss",
     githubLink: "https://github.com/erfunit/to-do",
+    demo: "../ProjectsPreview/todo/todo.html",
   },
   {
     thumbnail: hoobank,
     title: "Hoobank UI implementation",
     techs: "React / Tailwindcss",
     githubLink: "https://github.com/erfunit/bank-modern-app",
+    demo: "../ProjectsPreview/hoobank/1.html",
   },
   {
     thumbnail: growwithdata,
     title: "Grow with data UI implementation",
     techs: "React / Tailwindcss",
     githubLink: "https://github.com/erfunit/grow-with-data",
+    demo: "../ProjectsPreview/growwithdata/1.html",
   },
 ];
