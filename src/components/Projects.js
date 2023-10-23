@@ -1,24 +1,20 @@
-import todo from "../assets/todo.jpg";
-import hoobank from "../assets/hoobank.jpg";
-import growwithdata from "../assets/growithdata.jpg";
-
 export const projects = [
   {
-    thumbnail: todo,
+    thumbnail: "/assets/todo.jpg",
     title: "todo application",
     techs: "React / Tailwindcss",
     githubLink: "https://github.com/erfunit/to-do",
     demo: "https://erfun-todo-app.netlify.app/",
   },
   {
-    thumbnail: hoobank,
+    thumbnail: "/assets/hoobank.jp",
     title: "Hoobank UI implementation",
     techs: "React / Tailwindcss",
     githubLink: "https://github.com/erfunit/bank-modern-app",
     demo: "https://erfun-hoobank.netlify.app/",
   },
   {
-    thumbnail: growwithdata,
+    thumbnail: "/assets/growithdata.jpg",
     title: "Grow with data UI implementation",
     techs: "React / Tailwindcss",
     githubLink: "https://github.com/erfunit/grow-with-data",

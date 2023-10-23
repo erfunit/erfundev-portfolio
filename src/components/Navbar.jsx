@@ -1,6 +1,5 @@
 import React, { useState, useContext } from "react";
 import { mouseContext } from "../contexts/mouseContext";
-import mailIcon from "../assets/Icons/mail.svg";
 
 const Navbar = () => {
   const [hoverabel, setHoverable] = useContext(mouseContext);
@@ -106,7 +105,11 @@ const Navbar = () => {
           href="mailto: erfunghodoosi@gmail.com"
           className="border p-3 rounded-full active:scale-75 transition-all border-[#292929] bg-[#141414]"
         >
-          <img src={mailIcon} alt="mail-icon" className="md:hidden" />
+          <img
+            src={"/assets/Icons/mail.svg"}
+            alt="mail-icon"
+            className="md:hidden"
+          />
           <span className="text-white/70 mx-5 hidden md:block">Email</span>
         </a>
       </header>

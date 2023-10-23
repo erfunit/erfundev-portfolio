@@ -1,7 +1,6 @@
 import { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
-import loadingImage from "../assets/icons/loading.svg";
 
 const ContactMe = () => {
   const form = useRef(null);
@@ -91,7 +90,7 @@ const ContactMe = () => {
                 initial={{ opacity: 0, scale: 0 }}
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0 }}
-                src={loadingImage}
+                src={"/assets/icons/loading.svg"}
                 alt=""
                 className="w-5 ml-3 animate-spin"
               />

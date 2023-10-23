@@ -1,4 +1,3 @@
-import myImage from "../assets/myImage2.jpg";
 import { Parallax } from "react-parallax";
 
 const About = () => {
@@ -12,7 +11,7 @@ const About = () => {
           <Parallax
             className="w-10/12  aspect-square h-full"
             strength={250}
-            bgImage={myImage}
+            bgImage={"/assets/myImage2.jpg"}
             alt=""
           />
         </div>

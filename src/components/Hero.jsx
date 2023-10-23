@@ -1,17 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import handEmoji from "../assets/hand.svg";
 import Typed from "react-typed";
-
-import html from "../assets/icons/html.svg";
-import css from "../assets/icons/css.svg";
-import js from "../assets/icons/js.svg";
-import sass from "../assets/icons/sass.svg";
-import react from "../assets/icons/react.svg";
-import tailwind from "../assets/icons/tailwind.svg";
-import dots from "../assets/icons/dots2.svg";
-import myImage from "../assets/myImage.jpg";
-import down from "../assets/icons/down.svg";
 
 import {
   MouseParallaxChild,
@@ -29,13 +18,17 @@ const Hero = () => {
           <motion.img
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            src={myImage}
+            src={"/assets/myImage.jpg"}
             className="w-full rounded-full absolute bottom-1 right-1"
             alt=""
           />
         </div>
         <div className="_info relative flex px-4 gap-1 items-center md:items-start flex-col font-nunito">
-          <img src={dots} className="w-28 absolute -top-11 -left-10" alt="" />
+          <img
+            src={"/assets/icons/dots2.svg"}
+            className="w-28 absolute -top-11 -left-10"
+            alt=""
+          />
           <span className="flex flex-row items-center gap-1">
             <Typed
               strings={["Hi! my name is Erfun."]}
@@ -46,7 +39,7 @@ const Hero = () => {
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
               transition={{ duration: 0.3, delay: 2 }}
-              src={handEmoji}
+              src={"/assets/hand.svg"}
               alt="Hi"
             />
           </span>
@@ -59,7 +52,7 @@ const Hero = () => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.2 }}
-              src={html}
+              src={"/assets/icons/html.svg"}
               alt=""
               className="w-9"
             />
@@ -67,7 +60,7 @@ const Hero = () => {
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.3, delay: 0.4 }}
-              src={css}
+              src={"/assets/icons/css.svg"}
               alt=""
               className="w-12"
             />
@@ -75,7 +68,7 @@ const Hero = () => {
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.3, delay: 0.6 }}
-              src={js}
+              src={"/assets/icons/js.svg"}
               alt=""
               className="w-9"
             />
@@ -83,7 +76,7 @@ const Hero = () => {
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.3, delay: 0.8 }}
-              src={sass}
+              src={"/assets/icons/sass.svg"}
               alt=""
               className="w-9"
             />
@@ -91,7 +84,7 @@ const Hero = () => {
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.3, delay: 1 }}
-              src={react}
+              src={"/assets/icons/react.svg"}
               alt=""
               className="w-9"
             />
@@ -99,13 +92,17 @@ const Hero = () => {
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.3, delay: 1.2 }}
-              src={tailwind}
+              src={"/assets/icons/tailwind.svg"}
               alt=""
               className="w-9"
             />
           </div>
           <div className="relative flex flex-row items-center gap-2 top-6">
-            <img src={down} className="animate-bounce w-3" alt="" />
+            <img
+              src={"/assets/icons/down.svg"}
+              className="animate-bounce w-3"
+              alt=""
+            />
             <span className="font-light text-lg text-white/50">
               Scroll down
             </span>
@@ -118,7 +115,7 @@ const Hero = () => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.3, delay: 0.3 }}
-              src={myImage}
+              src={"/assets/myImage.jpg"}
               className="absolute rounded-full bottom-0 right-0"
               alt="Erfun Ghodoosi"
             />
