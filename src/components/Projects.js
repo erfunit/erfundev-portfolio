@@ -7,7 +7,7 @@ export const projects = [
     demo: "https://erfun-todo-app.netlify.app/",
   },
   {
-    thumbnail: "/assets/hoobank.jp",
+    thumbnail: "/assets/hoobank.jpg",
     title: "Hoobank UI implementation",
     techs: "React / Tailwindcss",
     githubLink: "https://github.com/erfunit/bank-modern-app",
