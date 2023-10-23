@@ -1,7 +1,7 @@
 import { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
-import loadingImage from "../assets/icons/loading.svg";
 import { motion } from "framer-motion";
+import loadingImage from "../assets/icons/loading.svg";
 
 const ContactMe = () => {
   const form = useRef(null);
@@ -25,13 +25,13 @@ const ContactMe = () => {
         "0WK1WzLCaEXl-VcU0"
       )
       .then(
-        (result) => {
+        () => {
           setLoaing(() => false);
           setEmail("");
           setSubject("");
           setContent("");
         },
-        (error) => {}
+        () => {}
       );
   };
 
