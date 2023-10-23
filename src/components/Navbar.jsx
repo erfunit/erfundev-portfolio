@@ -1,6 +1,6 @@
 import React, { useState, useContext } from "react";
 import { mouseContext } from "../contexts/mouseContext";
-import mailIcon from "/public/assets/Icons/mail.svg";
+import mailIcon from "../assets/Icons/mail.svg";
 
 const Navbar = () => {
   const [hoverabel, setHoverable] = useContext(mouseContext);

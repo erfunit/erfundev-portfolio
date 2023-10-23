@@ -1,4 +1,4 @@
-import myImage from "/public/assets/myImage2.jpg";
+import myImage from "../assets/myImage2.jpg";
 import { Parallax } from "react-parallax";
 
 const About = () => {
