@@ -15,7 +15,7 @@ const Footer = () => {
       <div className="container 2xl:max-w-screen-xl mx-auto py-10 sm:py-12 md:py-20 grid grid-cols-1 md:grid-cols-2">
         <div className="flex gap-6 px-6 max-w-md flex-col justify-start ">
           <h1 className="text-[#FFB800] text-4xl font-light font-nunito">
-            Erfungraph
+            Erfundev
           </h1>
           <p className="text-lg font-nunito font-light">
             I also have been a graphic designer for 6 years and my Graphic

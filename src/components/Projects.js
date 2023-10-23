@@ -1,6 +1,6 @@
-import todo from "../../public/assets/todo.jpg";
-import hoobank from "../../public/assets/hoobank.jpg";
-import growwithdata from "../../public/assets/growithdata.jpg";
+import todo from "/public/assets/todo.jpg";
+import hoobank from "/public/assets/hoobank.jpg";
+import growwithdata from "/public/assets/growithdata.jpg";
 
 export const projects = [
   {

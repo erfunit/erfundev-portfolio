@@ -1,6 +1,6 @@
 import React, { useState, useContext } from "react";
 import { mouseContext } from "../contexts/mouseContext";
-import mailIcon from "../../public/assets/Icons/mail.svg";
+import mailIcon from "/public/assets/Icons/mail.svg";
 
 const Navbar = () => {
   const [hoverabel, setHoverable] = useContext(mouseContext);
@@ -46,7 +46,7 @@ const Navbar = () => {
           />
         </div>
         <h1 className="text-[#FFB800] text-2xl font-nunito font-light">
-          Erfungraph
+          Erfundev
         </h1>
         <nav className="text-white/70 hidden md:block text-lg font-light font-nunito">
           <ul className="flex flex-row gap-8">
