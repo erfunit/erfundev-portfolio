@@ -20,4 +20,18 @@ export const projects = [
     githubLink: "https://github.com/erfunit/grow-with-data",
     demo: "https://erfun-grow-with-data.netlify.app/",
   },
+  {
+    thumbnail: "/assets/login.jpg",
+    title: "login and signup form with validation",
+    techs: "React / Tailwindcss",
+    githubLink: "https://github.com/erfunit/React-LoginForm",
+    demo: "https://erfunitloginform.netlify.app/",
+  },
+  {
+    thumbnail: "/assets/mefaro.jpg",
+    title: "mefaro frontend web application (PWA)",
+    techs: "Next.js / Typescript",
+    githubLink: "https://github.com/erfunit/mefaro-frontend",
+    demo: "https://next.mefaro.ir",
+  },
 ];
