@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import handEmoji from "../assets/hand.svg";
 import Typed from "react-typed";
+
 import html from "../assets/icons/html.svg";
 import css from "../assets/icons/css.svg";
 import js from "../assets/icons/js.svg";
