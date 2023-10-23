@@ -1,17 +1,17 @@
 import React from "react";
 import { motion } from "framer-motion";
-import handEmoji from "../assets/hand.svg";
+import handEmoji from "../../public/assets/hand.svg";
 import Typed from "react-typed";
 
-import html from "../assets/icons/html.svg";
-import css from "../assets/icons/css.svg";
-import js from "../assets/icons/js.svg";
-import sass from "../assets/icons/sass.svg";
-import react from "../assets/icons/react.svg";
-import tailwind from "../assets/icons/tailwind.svg";
-import dots from "../assets/icons/dots2.svg";
-import myImage from "../assets/myImage.jpg";
-import down from "../assets/icons/down.svg";
+import html from "../../public/assets/icons/html.svg";
+import css from "../../public/assets/icons/css.svg";
+import js from "../../public/assets/icons/js.svg";
+import sass from "../../public/assets/icons/sass.svg";
+import react from "../../public/assets/icons/react.svg";
+import tailwind from "../../public/assets/icons/tailwind.svg";
+import dots from "../../public/assets/icons/dots2.svg";
+import myImage from "../../public/assets/myImage.jpg";
+import down from "../../public/assets/icons/down.svg";
 
 import {
   MouseParallaxChild,

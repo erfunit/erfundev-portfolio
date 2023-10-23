@@ -1,6 +1,6 @@
 import { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
-import loadingImage from "../assets/icons/loading.svg";
+import loadingImage from "../../public/assets/icons/loading.svg";
 import { motion } from "framer-motion";
 
 const ContactMe = () => {
