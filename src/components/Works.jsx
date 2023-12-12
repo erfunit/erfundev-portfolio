@@ -36,16 +36,18 @@ const Works = () => {
                   className="group-hover:scale-105 transition-all duration-700"
                 />
                 <div className="absolute hidden opacity-0 gap-x-3 transition-all group-hover:opacity-100 h-full w-full bg-gray-800/60 z-20 top-0 left-0 md:flex justify-center items-center flex-row">
-                  <a
-                    target="_blank"
-                    href={project.githubLink}
-                    className="p-4  rounded bg-white/40 text-white transition-all hover:bg-white/60 active:scale-95"
-                  >
-                    <FaGithub
-                      size={25}
-                      className="rounded-full opacity-0  scale-50 group-hover:opacity-100 group-hover:scale-100 delay-150 transition-all "
-                    />
-                  </a>
+                  {project.githubLink ? (
+                    <a
+                      target="_blank"
+                      href={project.githubLink}
+                      className="p-4  rounded bg-white/40 text-white transition-all hover:bg-white/60 active:scale-95"
+                    >
+                      <FaGithub
+                        size={25}
+                        className="rounded-full opacity-0  scale-50 group-hover:opacity-100 group-hover:scale-100 delay-150 transition-all "
+                      />
+                    </a>
+                  ) : null}
                   <a
                     target="_blank"
                     // href={project.demo}
