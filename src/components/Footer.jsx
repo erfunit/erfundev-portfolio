@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   FaInstagram,
   FaGithub,
@@ -51,7 +51,7 @@ const Footer = () => {
                 className="hover:text-[#FFB800] transition-all"
               />
             </a>
-            <a target="_blank" href="https://medium.com/@erfungraph99">
+            <a target="_blank" href="https://medium.com/@erfundev">
               <BsMedium
                 size={23}
                 className="hover:text-[#FFB800] transition-all"
@@ -70,9 +70,33 @@ const Footer = () => {
             >
               <a
                 target="_blank"
-                href="https://medium.com/@erfungraph99/5-tips-to-get-rid-of-procrastinating-productivity-31297ba2d58a"
+                href="https://medium.com/@erfundev/unlocking-the-hidden-potential-of-useeffect-in-react-insights-beyond-the-basics-62fbbd984f0f"
               >
-                -4 tips to get rid of procrastinating productivity
+                -Unlocking the Hidden Potential of useEffect in React: Insights
+                Beyond the Basics
+              </a>
+            </li>
+            <li
+              className="hover:text-white/100 transition-all
+            "
+            >
+              <a
+                target="_blank"
+                href="https://medium.com/@erfundev/its-time-to-level-up-embrace-typescript-and-supercharge-your-javascripat-codebase-64b19b1b77c3"
+              >
+                -It’s Time to Level Up: Embrace TypeScript and Supercharge Your
+                JavaScript Codebase
+              </a>
+            </li>
+            <li
+              className="hover:text-white/100 transition-all
+            "
+            >
+              <a
+                target="_blank"
+                href="https://medium.com/@erfundev/mastering-web-performance-optimization-in-reactjs-49d55df7cab5"
+              >
+                -Mastering Web Performance Optimization in ReactJS
               </a>
             </li>
           </ul>
