@@ -15,7 +15,10 @@ const App = () => {
   const [scale, setScale] = useState(1);
 
   useEffect(() => {
-    scrollTo(App);
+    window.scrollTo(0, 0);
+  }, []);
+
+  useEffect(() => {
     if (hoverable) {
       setScale("2");
     } else {
