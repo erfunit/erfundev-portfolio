@@ -24,18 +24,27 @@ const About = () => {
             <span>About me</span>
           </h1>
           <p className="font-nunito text-[#aaa] leading-7 font-light text-xl ">
-            I started coding to pass my school subjects, but I quickly realized
-            that I had a passion for creating dynamic designs that could make a
-            real difference. I focused on learning frontend development and
-            became proficient in <span className="text-[#FFB800]">HTML</span>,{" "}
-            <span className="text-[#FFB800]">CSS</span>, and{" "}
-            <span className="text-[#FFB800]">JavaScript</span>. To take my
-            skills to the next level, I also learned preprocessors and libraries
-            such as
-            <span className="text-[#FFB800]"> SASS</span>,{" "}
-            <span className="text-[#FFB800]">ReactJS</span>, and{" "}
-            <span className="text-[#FFB800]">Tailwind</span>. With each new
-            skill I acquired, I created more impressive designs.
+            I started coding to excel in my school subjects but quickly found a
+            passion for creating dynamic, impactful designs. Proficient in{" "}
+            <span class="text-[#FFB800]">HTML</span>,{" "}
+            <span class="text-[#FFB800]">CSS</span>, and{" "}
+            <span class="text-[#FFB800]">JAVASCRIPT</span>, I honed my frontend
+            development skills and delved into{" "}
+            <span class="text-[#FFB800]">TYPESCRIPT</span> and{" "}
+            <span class="text-[#FFB800]">SASS</span> for more robust, scalable
+            projects. My journey led me to{" "}
+            <span class="text-[#FFB800]">REACT.JS</span> and{" "}
+            <span class="text-[#FFB800]">NEXT.JS</span>, where I crafted
+            responsive and SEO-friendly user interfaces. I embraced state
+            management with <span class="text-[#FFB800]">REDUX</span> and
+            <span class="text-[#FFB800]">ZUSTAND</span>, and form management
+            with <span class="text-[#FFB800]">REACT HOOK FORM</span>, ensuring
+            my designs were not only visually appealing but also functionally
+            rich. Collaboration in my projects is streamlined with Git/Github,
+            and my use of <span class="text-[#FFB800]">MATERIAL UI</span> and
+            <span class="text-[#FFB800]">REACT QUERY</span> adds sophistication
+            to my work. Each new skill has been a step towards creating more
+            advanced and engaging digital experiences.
           </p>
         </div>
       </div>

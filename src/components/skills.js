@@ -1,0 +1,80 @@
+export const skillsIconsList = [
+  {
+    title: "html",
+    src: "public/assets/icons/html.svg",
+    duration: 0.2,
+    delay: 0,
+  },
+  {
+    title: "css",
+    src: "public/assets/icons/css.svg",
+    duration: 0.3,
+    delay: 0.4,
+  },
+  {
+    title: "js",
+    src: "public/assets/icons/js.svg",
+    duration: 0.3,
+    delay: 0.6,
+  },
+  {
+    title: "ts",
+    src: "public/assets/icons/ts.png",
+    duration: 0.3,
+    delay: 0.8,
+  },
+  {
+    title: "sass",
+    src: "public/assets/icons/sass.svg",
+    duration: 0.3,
+    delay: 1,
+  },
+  {
+    title: "react",
+    src: "public/assets/icons/react.svg",
+    duration: 0.3,
+    delay: 1.2,
+  },
+  {
+    title: "next.js",
+    src: "public/assets/icons/next.png",
+    duration: 0.3,
+    delay: 1.4,
+  },
+  {
+    title: "tailwind",
+    src: "public/assets/icons/tailwind.svg",
+    duration: 0.3,
+    delay: 1.6,
+  },
+  {
+    title: "react hook form",
+    src: "public/assets/icons/RHF.png",
+    duration: 0.3,
+    delay: 1.8,
+  },
+  {
+    title: "redux",
+    src: "public/assets/icons/redux.svg",
+    duration: 0.3,
+    delay: 2,
+  },
+  {
+    title: "git/github",
+    src: "public/assets/icons/Git.png",
+    duration: 0.3,
+    delay: 2.2,
+  },
+  {
+    title: "MUI",
+    src: "public/assets/icons/mui.png",
+    duration: 0.3,
+    delay: 2.4,
+  },
+  {
+    title: "React-query",
+    src: "public/assets/icons/react-quert.png",
+    duration: 0.3,
+    delay: 2.6,
+  },
+];
