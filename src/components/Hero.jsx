@@ -10,8 +10,11 @@ import { skillsIconsList } from "./skills";
 
 const Hero = () => {
   return (
-    <MouseParallaxContainer className="h-screen" id="home">
-      <div className="container flex-col mx-auto gap-5 sm:gap-8 md:gap-16 md:flex-row h-full flex justify-center items-center">
+    <MouseParallaxContainer className="h-screen">
+      <div
+        id="hero"
+        className="container flex-col mx-auto gap-5 sm:gap-8 md:gap-16 md:flex-row h-full flex justify-center items-center"
+      >
         <div
           style={{ paddingTop: "40%" }}
           className="w-2/5 aspect-ratio h-0 mx-auto relative md:hidden border rounded-full border-[#FFB800]"
